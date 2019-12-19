@@ -9,7 +9,7 @@ cd firestoreHelperTool
 npm i 
 ```
 2) Generate a Firebase Admin SDK private key in the [Google Firebase Console](https://console.firebase.google.com/). Project Settings -> Service Accounts -> Firebase Admin SDK.
-3) Copy the download .json file to the `_credentials` folder and name it `firebase.json`
+3) Copy the downloaded .json file to the `_credentials` folder and rename it to `firebase.json`
 
 ## Exporting
 To export data change the scheme you want to export in `_config/schema.js`. Than run:
