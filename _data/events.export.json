@@ -1,0 +1,402 @@
+{
+  "events": {
+    "__type__": "collection",
+    "26wohLPvLZaOdaq8HEKW": {
+      "downloads": [
+        {
+          "fileUrl": "",
+          "title": "Praxiseinblicke und Infos.ppt",
+          "icon": "pdf"
+        },
+        {
+          "icon": "powerpoint",
+          "fileUrl": "",
+          "title": "Präsentation Augmenting Intelligence.pdf"
+        }
+      ],
+      "bannerImageId": "EventApp/Keyvisual-Unternehmertag",
+      "contact": {
+        "email": "isabelle.buehlmann@lukb.ch",
+        "lastname": "Bühlmann",
+        "firstname": "Isabelle",
+        "imageId": "EventApp/Bu%CC%88hlmann_Isabelle",
+        "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575961033/EventApp/Bu%CC%88hlmann_Isabelle.jpg",
+        "tel": "+41 41 206 24 35",
+        "title": "Projektleiterin Marketing"
+      },
+      "notifications": [],
+      "partners": [
+        {
+          "logoImageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575961092/EventApp/Viscosistadt_logo.png",
+          "logoImageId": "EventApp/Viscosistadt_logo"
+        }
+      ],
+      "timeStart": {
+        "_seconds": 1579852800,
+        "_nanoseconds": 0
+      },
+      "date": {
+        "_seconds": 1579820400,
+        "_nanoseconds": 0
+      },
+      "program": [
+        {
+          "title": "Eintreffen der Gäste",
+          "datetimeStart": {
+            "_seconds": 1579851000,
+            "_nanoseconds": 0
+          }
+        },
+        {
+          "datetimeEnd": {
+            "_seconds": 1579853700,
+            "_nanoseconds": 0
+          },
+          "title": "Auftaktvideo und Begrüssung",
+          "datetimeStart": {
+            "_seconds": 1579852800,
+            "_nanoseconds": 0
+          }
+        },
+        {
+          "title": "Impulsreferat Prof. Dr. Edy Portmann",
+          "datetimeStart": {
+            "_seconds": 1579853700,
+            "_nanoseconds": 0
+          },
+          "description": "\n            «Augmenting Intelligence: Wie erweitern wir gemeinsam            unsere kollektive\tIntelligenz?»",
+          "datetimeEnd": {
+            "_seconds": 1579857600,
+            "_nanoseconds": 0
+          }
+        },
+        {
+          "datetimeStart": {
+            "_seconds": 1579857600,
+            "_nanoseconds": 0
+          },
+          "description": "Marktplatz",
+          "isLink": true,
+          "title": "Kaffeepause und Eröffnung"
+        },
+        {
+          "title": "Praxiseinblicke und Infostände",
+          "datetimeStart": {
+            "_seconds": 1579858800,
+            "_nanoseconds": 0
+          }
+        },
+        {
+          "title": "Stehlunch",
+          "datetimeStart": {
+            "_seconds": 1579863600,
+            "_nanoseconds": 0
+          },
+          "datetimeEnd": {
+            "_seconds": 1579869000,
+            "_nanoseconds": 0
+          }
+        },
+        {
+          "title": "Poetry Slam Dominik Muheim",
+          "datetimeStart": {
+            "_seconds": 1579869000,
+            "_nanoseconds": 0
+          },
+          "datetimeEnd": {
+            "_seconds": 1579870200,
+            "_nanoseconds": 0
+          }
+        },
+        {
+          "datetimeEnd": {
+            "_seconds": 1579871700,
+            "_nanoseconds": 0
+          },
+          "title": "Tagesrückblick ",
+          "datetimeStart": {
+            "_seconds": 1579870200,
+            "_nanoseconds": 0
+          }
+        },
+        {
+          "datetimeStart": {
+            "_seconds": 1579871700,
+            "_nanoseconds": 0
+          },
+          "datetimeEnd": {
+            "_seconds": 1579874400,
+            "_nanoseconds": 0
+          },
+          "title": "Farewell Drink und Ausklang "
+        }
+      ],
+      "bannerImageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575960955/EventApp/Keyvisual-Unternehmertag.jpg",
+      "attendees": [
+        {
+          "company": "MusterAG",
+          "email": "cordova.burke@t-mobile.ch",
+          "fullName": "Cora Burka",
+          "tel": "+41 41 124 56 78",
+          "linkedInProfileLink": "https://uk.linkedin.com/in/cjaburke"
+        },
+        {
+          "email": "c.sanders@luzern.ch",
+          "fullName": "Christopher Sanders",
+          "tel": "+41 41 789 23 45",
+          "linkedInProfileLink": "https://www.linkedin.com/in/clsanders"
+        },
+        {
+          "company": "Gerber und Co.",
+          "email": "Denis.Gerber@g-mobile.ch",
+          "fullName": "Denis Gerber"
+        },
+        {
+          "fullName": "Cora Burka",
+          "linkedInProfileLink": "https://uk.linkedin.com/in/cjaburke"
+        },
+        {
+          "company": "MusterAG",
+          "fullName": "Christopher Sanders"
+        },
+        {
+          "fullName": "Denis Gerber"
+        }
+      ],
+      "description": "Das Potenzial digitaler Neuerungen versteckt sich oft im Kleinen und entfaltet sich insbesondere durch den geschickten Einsatz des Menschen. Es braucht keine komplexen Systeme oder Roboter, um unsere Arbeits- und Lebensweise grundlegend zu verändern. Einfache Applikationen wie das E-Mail können genügen. Technologie allein garantiert selten den Erfolg.\\nAm Unternehmertag 2020 der Luzerner Kantonalbank präsentieren wir Ihnen eine Reihe Lösungsansätze, Technologien und Produkte, die Ihrem Unternehmen und Ihren Mitarbeitenden vielfältige Chancen eröffnen, um den Wandel zu stützen.\\nAuf einem Marktplatz zeigen Vertreter von Unternehmen und Organisationen– ganz aus der Praxis heraus – auf, wie ihre Projekte zwischen «on» und «off», also zwischen Technologie und Mensch, entwickelt, umgesetzt und betrieben werden. In Kurzpräsentationen geben sie Einblicke in ihre Erfolgsgeschichten. Ihre Lösungspartner stehen danach an Infoständen für den Austausch und konkrete Herangehensweisen zur Verfügung.",
+      "name": "Unternehmertag 2020",
+      "showAttendees": false,
+      "marketplace": {
+        "presentationBlocks": [
+          {
+            "timeStart": {
+              "_seconds": 1579858800,
+              "_nanoseconds": 0
+            },
+            "title": "Präsentationsblock 1",
+            "timeEnd": {
+              "_seconds": 1579860300,
+              "_nanoseconds": 0
+            },
+            "presentations": [
+              {
+                "title": "Die Herausforderung unserer Zeit: Veränderung mit exponentieller Dynamik!",
+                "speakers": [
+                  {
+                    "title": "VR-Präsident / Inhaber, Birchmeier Sprühtechnik AG",
+                    "description": "In einer Zeit, in der Lösungen meist nur noch interdisziplinär gefunden werden können und in der Veränderung sowie Innovation immer schneller und vielfältiger ablaufen, ist es ein Muss schnell und effektiv Kooperationen und Partnerschaften einzugehen. Jürg Zwahlen zeigt an einem Praxisbeispiel auf, wie durch systematisches Vorgehen Kompetenzlücken in Projekten oder Geschäftsmodellen identifiziert und geschlossen werden können.",
+                    "fullName": "Jürg Zwahlen",
+                    "type": "Referent",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590306/EventApp/marketplace/Ju%CC%88rg_Zwahlen.jpg",
+                    "imageId": "EventApp/marketplace/Jürg_Zwahlen"
+                  },
+                  {
+                    "fullName": "Bruno Imhof",
+                    "type": "Infostand",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590307/EventApp/marketplace/Bruno_Imhof.jpg",
+                    "imageId": "EventApp/marketplace/Bruno_Imhof",
+                    "title": "Geschäftsführer, ITZ InnovationsTransfer Zentralschweiz",
+                    "description": "ITZ unterstützt mit dem Programm «zentralschweiz innovativ» KMU aus der Zentralschweiz, Ideen zu marktfähigen Innovationen zu entwickeln. Das kostenlose Coaching Angebot reicht von Abklärungen zur technischen Machbarkeit, Marktpotential bis hin zu Förder- und Finanzierungsquellen sowie Patentrecherchen."
+                  }
+                ]
+              },
+              {
+                "speakers": [
+                  {
+                    "fullName": "Martin Kunz",
+                    "type": "Referent",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590306/EventApp/marketplace/Martin_Kunz.jpg",
+                    "imageId": "EventApp/marketplace/Martin_Kunz",
+                    "title": "Leiter Informatik, Schweizer Paraplegiker-Zentrum Nottwil",
+                    "description": "Die Art, wie in Unternehmen zusammengearbeitet wird, verändert sich grundlegend. Es werden auf die Hintergründe dieser Veränderung und entsprechenden Lösungsansätze eingegangen. Martin Kunz zeigt auf, wie das Paraplegiker Zentrum die digitale Zusammenarbeit in der Praxis umsetzt."
+                  },
+                  {
+                    "fullName": "Daniel Schnyder",
+                    "type": "Infostand",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590307/EventApp/marketplace/Daniel_Schnyder.jpg",
+                    "imageId": "EventApp/marketplace/Daniel_Schnyder",
+                    "title": "Managing Partner & Senior Consultant, Beetroot AG",
+                    "description": "Beetroot begleitet Kunden auf dem Weg zur Digitalisierung ihres Unternehmens mit individuellen Lösungen für die interne Kommunikation und die digitale Arbeitswelt – von der Analyse bis zur Implementierung."
+                  }
+                ],
+                "title": "Mindset für die digitale Zusammenarbeit"
+              }
+            ]
+          },
+          {
+            "timeStart": {
+              "_seconds": 1579860600,
+              "_nanoseconds": 0
+            },
+            "title": "Präsentationsblock 2",
+            "timeEnd": {
+              "_seconds": 1579862100,
+              "_nanoseconds": 0
+            },
+            "presentations": [
+              {
+                "speakers": [
+                  {
+                    "fullName": "Marco Kessler",
+                    "type": "Referent",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590307/EventApp/marketplace/Marco_Kessler.jpg",
+                    "imageId": "EventApp/marketplace/Marco_Kessler",
+                    "title": "Teamleiter Facility Management, SwissLife",
+                    "description": "Wie kann das Ziel nachhaltigen Wirtschaftens in einem Geschäftsmodell umgesetzt werden? Unter anderem durch Smart Building Providing als Ergänzung zur Gebäudeautomation. Marco Kessler zeigt auf, wie SwissLife diesen Transfer gewagt hat und erzählt von innovativen und ressourcenschonenden Lösungen in ihren – jetzt smarteren – Infrastrukturen."
+                  },
+                  {
+                    "fullName": "Harald Störk",
+                    "type": "Infostand",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576593925/EventApp/marketplace/Harald_Sto%CC%88rk.jpg",
+                    "imageId": "EventApp/marketplace/Harald_Störk",
+                    "title": "CEO, LEICOM AG",
+                    "description": "Leicom entwickelt sich von der Gebäudeautomation – mit der Plattform ElioT – weiter zum Smart Building Provider und unterstützt Kunden dabei, innovative und ressourcenschonende Lösungen für digitale Infrastrukturen zu entwickeln und umzusetzen."
+                  }
+                ],
+                "title": "Der Digitale Assistent im Facilitymanagement der Zukunft"
+              },
+              {
+                "title": "Kryptowährungen − Geld der Zukunft oder Zukunft ohne Geld?",
+                "speakers": [
+                  {
+                    "fullName": "Dr. med. dent. Rosanna Himmelfarb",
+                    "type": "Referentin",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590306/EventApp/marketplace/Rosanna_Himmelfarb.jpg",
+                    "imageId": "EventApp/marketplace/Rosanna_Himmelfarb",
+                    "title": "Inhaberin, Zahnklinik Luzern",
+                    "description": "Nach einer kurzen Blockchain-Einführung wird auf Kryptowährungen eingegangen. Dabei wird aufgezeigt, wieso Crypto Assets vermehrt an Relevanz gewinnen. Danach berichtet Rosanna Himmelfarb über die Gründe zur Einführung der PoS-App inapay bei der Zahnklinik Luzern und welche Erfahrungen sie mit Bitcoin als Zahlungsmittel gemacht hat."
+                  },
+                  {
+                    "fullName": "Roger Darin",
+                    "type": "Infostand",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590306/EventApp/marketplace/Roger_Darin.jpg",
+                    "imageId": "EventApp/marketplace/Roger_Darin",
+                    "title": "Head of Blockchain Advisory, inacta AG",
+                    "description": "Die inacta AG mit 70 erfahrenen Digitalisierungsexperten unterstützt Organisationen mit Beratung, Ausbildung sowie Software-Entwicklung. Als Early Adopter versteht die inacta nicht nur die Technologien wie zum Beispiel Blockchain, sondern vor allem auch wie und wo diese sinnvoll eingesetzt werden."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Präsentationsblock 3",
+            "timeEnd": {
+              "_seconds": 1579863900,
+              "_nanoseconds": 0
+            },
+            "presentations": [
+              {
+                "title": "3D-Druck im Bauwesen − Spinnerei oder Marktchance?",
+                "speakers": [
+                  {
+                    "fullName": "Christoph A.P. Rennhard",
+                    "type": "Referent",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590929/EventApp/marketplace/Christoph_Rennhard.jpg",
+                    "imageId": "EventApp/marketplace/Christoph_Rennhard",
+                    "title": "Geschäftsführer & Inhaber, LCA Automation AG",
+                    "description": "Trotz modernster Design-Werkzeuge der Planer werden Gebäude und Strukturen vorwiegend mit traditionell handwerklichen Methoden wie Mauern und Betonieren errichtet. Christoph Rennhard stellt das 3D-Druck-Verfahren vor, welches durch den Materialspezialisten SIKA und den Maschinenbauer LCA industrietauglich gemacht wurde. Es eröffnet eine neue Perspektive für die Bauindustrie."
+                  },
+                  {
+                    "fullName": "Frank Höfflin",
+                    "type": "Infostand",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576594499/EventApp/marketplace/Frank_H%C3%B6fflin.jpg",
+                    "imageId": "EventApp/marketplace/Frank_Höfflin",
+                    "title": "CTO, Sika Group",
+                    "description": "Sika ist ein Unternehmen der Spezialitätenchemie, führend in der Entwicklung und Produktion von Systemen und Produkten zum Kleben, Dichten, Dämpfen, Verstärken und Schützen für die Bau- und Fahrzeugindustrie. Sika ist weltweit präsent mit Tochtergesellschaften in 101 Ländern und produziert in über 300 Fabriken."
+                  }
+                ]
+              },
+              {
+                "speakers": [
+                  {
+                    "title": "Chief Strategy & Communication Officer, Swiss Krono Group",
+                    "description": "Die Swiss Krono Group hat sich intensiv mit der strategischen Bedeutung der digitalen Transformation für das Unternehmen auseinandergesetzt und insbesondere nach neuen Geschäftsmodellen gesucht. Anhand eines Praxisbeispiels zeigt Max von Tippelskirch auf, mit welchen Methoden, Tools und Menschen der Aufbau eines neuen Digitalgeschäfts gelungen ist – und dabei auf vorhandenen Assets aufgebaut wurde.",
+                    "fullName": "Max von Tippelskirch",
+                    "type": "Referent",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590306/EventApp/marketplace/Max_von_Tippelskirch.jpg",
+                    "imageId": "EventApp/marketplace/Max_von_Tippelskirch"
+                  },
+                  {
+                    "fullName": "Mario Fäh",
+                    "type": "Infostand",
+                    "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1576590306/EventApp/marketplace/Mario_Fa%CC%88h.jpg",
+                    "imageId": "EventApp/marketplace/Mario_Fäh",
+                    "title": "Country Manager Schweiz, EY etventure",
+                    "description": "etventure zählt zu den führenden Strategie- und Umsetzungspartnern für digitale Transformation und den Aufbau neuer Geschäftsmodelle in etablierten Unternehmen. Wesentlicher Bestandteil des Erfolgs ist die Kombination vorhandener Stärken und Assets der Kunden mit modernen Innovationsmethoden sowie der Umsetzungsgeschwindigkeit und dem Mindset aus der digitalen Welt."
+                  }
+                ],
+                "title": "Wie digitale Geschäftsmodelle auch in traditionellen Unternehmen gelingen"
+              }
+            ],
+            "timeStart": {
+              "_seconds": 1579862400,
+              "_nanoseconds": 0
+            }
+          }
+        ],
+        "description": "Auf dem Marktplatz finden jeweils zwei Praxiseinblicke zur gleichen Zeit statt. Entscheiden Sie sich spontan vor Ort pro Präsentationsblock für jeweils einen Praxiseinblick. Gleich im Anschluss an die Kurzpräsentationen können Sie deren Lösungspartner an den Infoständen besuchen. Die Infostände bleiben bis zum Ende der Veranstaltung geöffnet."
+      },
+      "speakers": [
+        {
+          "title": "\n            Professor an der Universität Freiburg\n            (Swiss Post Professur für Informatik)\n          ",
+          "description": "\n          Forschungsgebiete Schnittstelle Mensch / Gesellschaft und Computersysteme. Publikationen zu Soft Computing, Fuzzy Logics, Smart Cities, soziale Netzwerke und regionale Kooperationsmöglichkeiten.",
+          "topic": "Impulsreferat",
+          "fullName": "Prof. Dr. Edy Portmann",
+          "imageId": "EventApp/Edy_Portmann_Impulsreferat",
+          "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575961071/EventApp/Edy_Portmann_Impulsreferat.jpg"
+        },
+        {
+          "topic": "Poetry Slam",
+          "fullName": "Dominik Muheim",
+          "imageId": "EventApp/Dominik_Muheim_Slam_Poetry",
+          "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575961076/EventApp/Dominik_Muheim_Slam_Poetry.jpg",
+          "title": "\n            Poetry Slammer",
+          "description": "\n            Der mehrfache Poetry Slam Schweizer Meister, Kabarettist und Geschichtenerzähler            begeisterte sein Publikum in den letzten Jahren mit den Programmen «Plötzlich zmitzt drin» und «Chunt scho guet».\n          "
+        },
+        {
+          "fullName": "Michael Rauchenstein",
+          "imageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575961085/EventApp/Michael_Rauchenstein.png",
+          "imageId": "EventApp/Michael_Rauchenstein",
+          "title": "MA in Politikwissenschaft, Journalist SRF-Newsroom, Moderator Tele 1",
+          "description": "Michael Rauchenstein arbeitet für die Auslandredaktion des Schweizer Fernsehens, ist Fernsehmoderator bei Tele 1 und ehemaliger Radiomoderator Radio TOP. Michael Rauchenstein leitet regelmässig Podiumsgespräche und kontroverse Debatten."
+        }
+      ],
+      "location": {
+        "mapImageUrl": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575961051/EventApp/map.png",
+        "name": "Viscosistadt",
+        "mapImageId": "EventApp/map",
+        "googleMapsLink": "https://goo.gl/maps/SVqE7MfVRaU1pZcSA",
+        "description": "\n          Die Eventlocation Viscosistadt ist ein ehemaliges Spinnereigebäude aus dem Jahre 1906. Durch den Industriecharme der Lokalität wirkt die Atmosphäre locker und ungezwungen. Wir empfehlen Ihnen den Dresscode «Smart Casual».",
+        "address": "Spinnereistrasse 3, 6020 Emmenbrücke"
+      },
+      "headline": "On/Off – Erfolg dank Technologie und Mensch",
+      "timeEnd": {
+        "_seconds": 1579874400,
+        "_nanoseconds": 0
+      },
+      "retrospective": {
+        "timeStart": {
+          "_seconds": 1579870800,
+          "_nanoseconds": 0
+        },
+        "linkText": "Hier gehts zur Umfrage",
+        "pictures": [
+          {
+            "id": "EventApp/stock1",
+            "url": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575305016/EventApp/stock1.jpg",
+            "title": "Patrick Berhalter 1",
+            "description": "Emmen 1, 24.01.2020"
+          },
+          {
+            "description": "Emmen 2, 24.01.2020",
+            "id": "EventApp/stock2",
+            "url": "https://res.cloudinary.com/lukb-pv-backend/image/upload/v1575305015/EventApp/stock2.jpg",
+            "title": "Patrick Berhalter 2"
+          }
+        ],
+        "link": "https://lukb.datacoll.net/glvfrvjdlj?l=de",
+        "description": "Schön, waren Sie am Unternehmertag 2020 zum Thema «On/Off - Erfolg dank Technologie und Mensch» dabei!"
+      }
+    }
+  }
+}
