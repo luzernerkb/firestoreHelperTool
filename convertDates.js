@@ -1,7 +1,12 @@
 const fs = require('fs');
 const YAML = require('js-yaml');
+const path = require('path');
+
 
 const fileName = process.argv[2];
+
+let collectionName = path.parse(fileName).name.split("-")[1];
+
 
 let dateArray = [
     'datetimeStart',
@@ -24,20 +29,9 @@ fs.readFile(fileName, 'utf8', function(err, data){
     dataArray = JSON.parse(data);
   }
 
-  udpateCollection(dataArray);
+  replaceTimestamps(dataArray);
 
 })
-
-async function udpateCollection(dataArray){
-  for(const index in dataArray){
-    const collectionName = index;
-    for(const doc in dataArray[index]){
-      if(dataArray[index].hasOwnProperty(doc)){
-        await startUpdating(collectionName, doc, dataArray[index][doc]);
-      }
-    }
-  }
-}
 
 function replaceDateTime(obj, searchKey) {
   //loop through object:
@@ -58,19 +52,19 @@ for (var key in obj) {
 }
 
 
-function startUpdating(collectionName, doc, data){
+function replaceTimestamps(data){
   // convert date from unixtimestamp  
   let parameterValid = true;
 
   let tmpData = data;
+
   // Enter date value
   if(typeof dateArray !== 'undefined') {        
     dateArray.map(date => {  
       tmpData = replaceDateTime(tmpData, date);
     });    
   }
-  //console.log("tmpData2 >>" + JSON.stringify(tmpData2, null, 4));  
-  fs.writeFile(fileName, JSON.stringify(data, null, 4), 'utf8' , function(err) {
+  fs.writeFile(fileName, JSON.stringify(tmpData, null, 4), 'utf8' , function(err) {
     if(err) {
         return console.log(err);
     }
