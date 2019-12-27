@@ -6,7 +6,7 @@
   "scripts": {
     "exportAll": "node exportPROD.js events; node exportPROD.js notifications; node exportPROD.js settings;",
     "convertAll": "node convertDates.js ./_data/firestore-events.json; node convertDates.js ./_data/firestore-notifications.json; node convertDates.js ./_data/firestore-settings.json",
-    "importAll": "node importDEV.js events; node importDEV.js notifications; node importDEV.js settings;",
+    "importAll": "node importDEV.js events; node importDEV.js notifications; node importDEV.js settings;"
   },
   "author": "Tom Enz, tom.enz@lukb.ch",
   "license": "ISC",
