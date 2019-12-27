@@ -4,7 +4,7 @@
   "description": "Tiny helpert tool for importing and exporting firestore data to json",
   "main": "firestore2json.js",
   "scripts": {
-    "exportAll": "node exportPROD.js events; node exportPROD.js notifications; node exportPROD.js settings;",
+    "exportAll": "node exportPROD.js events; node exportPROD.js notifications; node exportPROD.js settings; npm run convertAll;",
     "convertAll": "node convertDates.js ./_data/firestore-events.json; node convertDates.js ./_data/firestore-notifications.json; node convertDates.js ./_data/firestore-settings.json",
     "importAll": "node importDEV.js events; node importDEV.js notifications; node importDEV.js settings;"
   },
