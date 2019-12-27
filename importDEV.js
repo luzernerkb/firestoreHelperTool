@@ -7,6 +7,16 @@ let collectionName = process.argv[2];
 
 let fileName = "./_data/firestore-"+collectionName+".json"
 
+let dateArray = [
+  'datetimeStart',
+  'datetimeEnd',
+  'date',
+  'time',
+  'timeStart',
+  'timeEnd'
+];
+
+
 // You should replace databaseURL with your own
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -43,16 +53,40 @@ async function udpateCollection(dataArray){
   }
 }
 
+function convertTimestampsBackToDate(obj, searchKey) {
+  //loop through object:
+  for (var key in obj) {
+    var value = obj[key];
+    var isMatch = false;
+    if (key === searchKey) {
+            obj[searchKey] = new Date(obj[searchKey]);
+            isMatch = true;
+    }
+    
+    if (typeof value === 'object' && !isMatch) {
+      obj[key] = convertTimestampsBackToDate(value, searchKey);
+    }
+  }
+  return obj;
+}
+
 
 
 function startUpdating(collectionName, doc, data){
   // convert date from unixtimestamp  
   let parameterValid = true;
+  let tmpData = data;
+
+  if(typeof dateArray !== 'undefined') {        
+    dateArray.map(date => {  
+      tmpData = convertTimestampsBackToDate(tmpData, date);
+    });    
+  }
   
   if(parameterValid) {
     return new Promise(resolve => {
       db.collection(collectionName).doc(doc)
-      .set(data)
+      .set(tmpData)
       .then(() => {
         console.log(`${doc} is imported successfully to firestore!`);
         resolve('Data wrote!');
