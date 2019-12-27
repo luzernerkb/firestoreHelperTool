@@ -8,23 +8,41 @@ git clone <THISREPO> firestoreHelperTool
 cd firestoreHelperTool
 npm i 
 ```
-2) Generate a Firebase Admin SDK private key in the [Google Firebase Console](https://console.firebase.google.com/). Project Settings -> Service Accounts -> Firebase Admin SDK.
-3) Copy the downloaded .json file to the `_credentials` folder and rename it to `firebase.json`
+2) Generate two Firebase Admin SDK private key (Target + Source) in the [Google Firebase Console](https://console.firebase.google.com/). Project Settings -> Service Accounts -> Firebase Admin SDK.
+3) Copy the downloaded .json files in to the `_credentials` folder and rename it to 
+```
+./_credentials/firebase.prod.json
+./_credentials/firebase.dev.json
+```
 
 ## Exporting
-To export data change the scheme you want to export in `_config/schema.js`. Than run:
+To export data from PROD run:
 ```
-vi _config/schema.js
-npm run export
+node exportPROD.js <COLLECTION-NAME>
+
+# Example
+node exportPROD.js events
 ```
 ➡️ The data was exported to the `_data` folder
 
+## Convert Timestamps
+Since timestamps are export in a special way by firebase we need to convert them before importing.
+You can do this by:
+```
+node convertDates.js <FILENAME>
+
+# Example
+node convertDates.js ./_data/firestore-events.json
+```
+➡️ The changes were made in the same file
+
 
 ## Importing
-To import data change the scheme you want to import in `_config/schema.js`. Place your data in `_data` folder in the file `import.json` 
+To import a collection again:
 ```
-vi _config/schema.js
-cp <DATA> _data/import.json
-npm run import
+node importDEV.js <COLLECTION-NAME>
+
+# Example
+node importDEV.js events
 ```
-➡️ The data will be imported
+➡️ The data will be imported to the specified Firestore collection

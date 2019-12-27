@@ -4,13 +4,14 @@
   "description": "Tiny helpert tool for importing and exporting firestore data to json",
   "main": "firestore2json.js",
   "scripts": {
-    "export": "node firestore2json.js",
-    "import": "node json2firestore.js"
+    "exportAll": "node exportPROD.js events; node exportPROD.js notifications; node exportPROD.js settings;",
+    "convertAll": "node convertDates.js ./_data/firestore-events.json; node convertDates.js ./_data/firestore-notifications.json; node convertDates.js ./_data/firestore-settings.json",
+    "importAll": "node importDEV.js events; node importDEV.js notifications; node importDEV.js settings;",
   },
   "author": "Tom Enz, tom.enz@lukb.ch",
   "license": "ISC",
   "dependencies": {
     "firebase-admin": "^8.9.0",
-    "fs": "0.0.1-security"
+    "js-yaml": "^3.12.1"
   }
 }

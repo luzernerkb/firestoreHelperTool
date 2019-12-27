@@ -1,3 +1,0 @@
-exports.schema = {
-	events: {}
-};
